@@ -15,9 +15,11 @@
 **Licensed:** under CC0 1.0 Universal
 
 - Microsoft Azure path: https://marinecadastre.gov/downloads/ais2024/
+- [Download](https://marinecadastre.gov/downloads/ais2024/ais-2024-01-01.parquet) a daily national file for January 1, 2024 
 - 2024 file list:
 
-```ais-2024-01-01.parquet
+```
+ais-2024-01-01.parquet
 ais-2024-01-02.parquet
 ais-2024-01-03.parquet
 ais-2024-01-04.parquet
