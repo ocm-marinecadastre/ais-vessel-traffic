@@ -18,9 +18,9 @@ For an FTP-like experience browse the linked file lists on the [bulk order](http
 - Files contain a single geometry type of point - in WKB encoding
 - Row counts may exceed 10 million per day
 - Tested with: GeoPandas, GPQ, ArcGIS Pro, QGIS, and DuckDB
-- Browse [GeoParquet.org](https://geoparquet.org), [Apache Arrow](https://arrow.apache.org/), and [OGC](https://github.com/opengeospatial/geoparquet) for more details on this cloud optimzed format
+- Browse [GeoParquet.org](https://geoparquet.org), [Apache Arrow](https://arrow.apache.org/), and [OGC](https://github.com/opengeospatial/geoparquet) for more details on this cloud optimized format
 
-Although the file format is experimental for our project, the data is complete and analysis ready. These files have gone through additional cleaning and modifications to eliminate sentinel values and anomolies present in the CSV formatted data now available in AccessAIS and the Bulk order site.
+This file format is an experimental data product. The data are complete and analysis ready. These files have gone through additional cleaning and modifications to eliminate sentinel values and anomalies present in the data released on AccessAIS and the Bulk order site.
 
 ## Map Services
 
@@ -34,7 +34,7 @@ These are REST-based tile cached map services useful to visually explore the cov
 
 ## Metadata
 - Documentation for all NOAA OCM AIS products using the InPort [service](https://www.fisheries.noaa.gov/inport/item/55360)
-- Documentation for Nationwide Automatice Identification System [2024](https://www.fisheries.noaa.gov/inport/item/73064)
+- Documentation for Nationwide Automatic Identification System [2024](https://www.fisheries.noaa.gov/inport/item/73064)
 
 ## Support
 MarineCadastre@noaa.gov
