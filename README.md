@@ -6,10 +6,10 @@ Try the new 2024 GeoParquet files listed below - for some of the most 'analysis-
 ## Retrieve Data
 
 **Custom data orders**  
-The AccessAIS [application](https://marinecadastre.gov/accessais/) is a easy to use map driven order system that allows users to select an areas and timeframe to extract data. Order size limits are around 2 GB, and the delivery format is in zipped CSV.
+The AccessAIS [application](https://marinecadastre.gov/accessais/) is an easy to use map driven order system that allows a user to extract data for a custom area and timeframe. Order size limits are around 2 GB, and the delivery format is a zipped CSV.
 
 **Bulk data orders**  
-For an FTP-like experience browse the linked file lists on the [bulk order](https://hub.marinecadastre.gov/pages/vesseltraffic) site to extract static files going all the way back to 2009. Older data are in the File GeoDatabase format, and newer data in CSV.
+For an FTP-like experience browse the linked file lists on the [bulk order](https://hub.marinecadastre.gov/pages/vesseltraffic) site to extract static files going all the way back to 2009. Older data are in the File Geodatabase format, and newer data in CSV.
 
 **Experimental GeoParquet option**
 - Find all 2024 daily GeoParquet files at this Azure location 
@@ -47,4 +47,4 @@ All content is licensed under the CC0 1.0 Universal.
 <br>
 <br>
 ___
-File owned by NOAA Office for Coastal Management. Last updated: Mon July 07 09:10:01 EST 2025
+File owned by NOAA Office for Coastal Management. Last updated: Mon July 18 11:30:01 EST 2025
