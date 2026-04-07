@@ -1,7 +1,7 @@
 ## About  
 This repository provides guidance on the use of Automatic Identification System (AIS) data to members of coastal and ocean-planning communities in the United States. This site focuses on finding and accessing data that originates from the U.S. Coast Guard's Nationwide Automatic Identification System and is hosted by NOAA's Marine Cadastre project. [->](http://marinecadastre.gov/)  
 <br>
-Try the new 2024 GeoParquet files (listed below) for some of the most "analysis-ready" open data available for vessel traffic in U.S. waters.
+Try the new 2024 and 2025 GeoParquet files (listed below) for some of the most "analysis-ready" open data available for vessel traffic in U.S. waters.
 
 ## Retrieve Data
 
@@ -9,18 +9,21 @@ Try the new 2024 GeoParquet files (listed below) for some of the most "analysis-
 The AccessAIS [application](https://marinecadastre.gov/accessais/) is an easy-to-use, map-driven order system that allows users to extract data for a custom area and timeframe. Order size limits are around 2 GB, and the delivery format is a zipped CSV.
 
 **Bulk data orders**  
-For an FTP&mdash;like experience, browse the linked file lists on the [bulk order](https://hub.marinecadastre.gov/pages/vesseltraffic) site to extract static files going back to 2009. Older data are in file geodatabase format, and newer data are in CSV format.
+Access the [bulk order](https://hub.marinecadastre.gov/pages/vesseltraffic) site's annual lists to download static files from 2009 onward. Older files use the geodatabase format; newer files are in CSV.
 
 **Experimental GeoParquet option**
-- Find all 2024 daily GeoParquet files at this Azure location: 
-```https://marinecadastre.gov/downloads/ais2024/```
-- A list of file names can be found at: [daily-2024-parquet-files](data/daily-2024-parquet-files.md)
-- Files contain a single geometry type of "point" in well-known binary (WKB) encoding.
-- Row counts may exceed 10 million per day.
+- 2024 daily broadcast point file path: 
+```https://ocmgeodatastor1.blob.core.windows.net/marinecadastre/ais2024/```
+- 2024 daily broadcast point file name [list](data/daily-2024-parquet-filenames.md)
+- 2024 daily broadcast point [readme](data/ais-broadcast-points-2024-readme.md)
+- 2024 & 2025 monthly vessel track file path:
+```https://ocmgeodatastor1.blob.core.windows.net/marinecadastre/aistrack/```
+- 2024 & 2025 monthly vessel track file [URLs](https://ocmgeodatastor1.blob.core.windows.net/marinecadastre/aistrack/index-aistrack.html)
+- 2024 monthly vessel track [readme](data/ais-tracks-2024-readme.md)
 - Tested with GeoPandas, GPQ, ArcGIS Pro, QGIS, and DuckDB
 - Browse [GeoParquet.org](https://geoparquet.org), [Apache Arrow](https://arrow.apache.org/), and [OGC](https://github.com/opengeospatial/geoparquet) for more details on this cloud-optimized format.
 
-This file format is an experimental data product. The data are complete and analysis-ready. These files have gone through additional cleaning and modifications to eliminate sentinel values and anomalies present in the data released on AccessAIS and the bulk order site.
+This file format is an experimental data product. The data are complete and analysis-ready. These files have gone through additional cleaning and modifications to eliminate sentinel values and anomalies present in the data released on AccessAIS.
 
 ## Map Services
 
