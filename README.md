@@ -1,4 +1,7 @@
 ## About  
+[>>> Notice <<<]
+**Please use this new NOAA OCM hosted [repository](https://github.com/NOAA-OCM/ocm-marinecadastre-ais-vessel-traffic)**
+
 This repository provides guidance on the use of Automatic Identification System (AIS) data to members of coastal and ocean-planning communities in the United States. This site focuses on finding and accessing data that originates from the U.S. Coast Guard's Nationwide Automatic Identification System and is hosted by NOAA's Marine Cadastre project. [->](http://marinecadastre.gov/)  
 <br>
 Try the new 2024 and 2025 GeoParquet files (listed below) for some of the most "analysis-ready" open data available for vessel traffic in U.S. waters.
@@ -14,7 +17,7 @@ Access the [bulk order](https://hub.marinecadastre.gov/pages/vesseltraffic) site
 **Experimental GeoParquet option**
 - 2024 daily broadcast point file path: 
 ```https://ocmgeodatastor1.blob.core.windows.net/marinecadastre/ais2024/```
-- 2024 daily broadcast point file name [list](data/daily-2024-parquet-filenames.md)
+- 2024 daily broadcast point [file names](data/daily-2024-parquet-filenames.md)
 - 2024 daily broadcast point [readme](data/ais-broadcast-points-2024-readme.md)
 - 2024 & 2025 monthly vessel track file path:
 ```https://ocmgeodatastor1.blob.core.windows.net/marinecadastre/aistrack/```
@@ -32,6 +35,7 @@ This file format is an experimental data product. The data are complete and anal
 - AIS Vessel Transit Counts 2022 [->](https://coast.noaa.gov/arcgis/rest/services/MarineCadastre/AISVesselTransitCounts2022/MapServer)
 - AIS Vessel Transit Counts 2023 [->](https://coast.noaa.gov/arcgis/rest/services/MarineCadastre/AISVesselTransitCounts2023/MapServer)
 - AIS Vessel Transit Counts 2024 [->](https://coast.noaa.gov/arcgis/rest/services/MarineCadastre/AISVesselTransitCounts2024/MapServer)
+- AIS Vessel Transit Counts 2025 [->](https://coast.noaa.gov/arcgis/rest/services/MarineCadastre/AISVesselTransitCounts2025/MapServer)
 
 These are REST&mdash;based tile cached map services, which are useful to visually explore the coverage and density of annual data from the harbor to a national scale.
 
@@ -50,4 +54,4 @@ All content is licensed under the CC0 1.0 Universal public domain dedication.
 <br>
 <br>
 ___
-File owned by NOAA Office for Coastal Management. Last updated: Wed July 30 05:01:01 EST 2025
+File owned by NOAA Office for Coastal Management. Last updated: Tue November 17 03:37:01 EST 2025
